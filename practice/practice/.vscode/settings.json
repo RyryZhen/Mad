@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.formatOnPaste": true,
+
+  // Make Prettier the global default for non-Dart files (optional)
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Language-specific override: use Dart extension for .dart files
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+
+  // optional: make sure autoSave isn't interfering while testing
+  "files.autoSave": "off"
+}
